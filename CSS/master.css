@@ -34,3 +34,24 @@ aside .title img{
     width: 45px;
     margin-right: 25px;
 }
+.menu{
+    color: var(--second-color);
+}
+.menu h2{
+    text-transform: lowercase;
+    font-size: 18px;
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul li{
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.menu ul li i{
+    margin-right: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: var(--second-color);
+}
