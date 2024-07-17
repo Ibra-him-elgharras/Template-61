@@ -16,7 +16,7 @@ body{
 aside{
     background-color: var(--first-color);
     width: 240px;
-    padding: 20px;
+    padding: 10px 20px;
 }
 aside .title{
     display: flex;
@@ -63,12 +63,13 @@ aside .title img{
 aside .profile{
     display: flex;
     align-items: center;
+    padding: 5px;
     margin-top: 15px;
+    background-color: var(--fourth-color);
 }
 aside .profile .imgs{
     width: 50px;
     height: 50px;
-    
     margin-right: 18px;
 }
 aside .profile .imgs img{
@@ -81,6 +82,6 @@ aside .profile .info-prof{
     text-align: center;
 }
 aside .profile .info-prof h5{
-    font-size: 16px;
+    font-size: 15px;
     padding-bottom: 5px;
 }
