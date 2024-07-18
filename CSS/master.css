@@ -18,6 +18,14 @@ aside{
     width: 240px;
     padding: 10px 20px;
 }
+aside:hover .title a,
+aside:hover .menu h2,
+aside:hover .menu ul li a{
+    display: none;
+}
+.profile .info-prof{
+    background-color: none;
+}
 aside .title{
     display: flex;
     align-items: center;
@@ -37,11 +45,13 @@ aside .title img{
 }
 .menu{
     color: var(--second-color);
+    border-bottom: 2px solid var(--thirt-color);
+    margin-bottom: 10px;
 }
 .menu h2{
     text-transform: lowercase;
     font-size: 18px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
 }
 .menu ul{
     list-style: none;
@@ -49,6 +59,8 @@ aside .title img{
 .menu ul li{
     margin-left: 20px;
     padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
 }
 .menu ul li:hover{
     background-color: var(--fourth-color);
